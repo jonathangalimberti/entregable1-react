@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Id Card</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body id="sobre-mi">
+    <div class="card text-center bg-primary border-0 rounded-0 w-100">
+      <div
+        class="card-header sticky-top bg-body-tertiary border border-0 border-rounded-0 z-1 w-100 h-25 rounded-0"
+      >
+        <ul class="nav nav-pills card-header-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#estudios">¿Donde estudio?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <h3 class="text-center text-white mt-2">Sobre mi</h3>
+      <div class="card m-3 bg-body-tertiary">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="/trabajo1/images/imagen CV.jpg"
+              class="img-fluid rounded-center object-fit-cover border rounded"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div
+              class="card-body d-flex flex-column align-items-center justify-content-center h-100 w-75 mx-auto my-auto"
+            >
+              <h1 class="card-title my-3 border-bottom border-danger mb-4 mt-0">
+                Jonathan Galimberti
+              </h1>
+              <p class="card-text fs-4">
+                Soy estudiante de Desarrollo Web y Programación, principalmente
+                orientado a front-end con conocimiento en HTML, CSS, JavaScript,
+                Bootstrap, Sass, Pug y Stylus .
+              </p>
+              <p class="card-text fs-4">
+                En constante busqueda de desafíos y nuevos aprendizajes.
+              </p>
+              <p class="card-text fs-4" id="estudios">
+                Iniciando mis conocimientos en el Back-end con Node.js, bases de
+                datos MySql y Express.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="text-center text-white mt-2">¿Dónde estudio?</h3>
+      <div class="card m-3 bg-body-tertiary">
+        <div class="row g-0">
+          <div class="col-md-5 bg-dark d-flex">
+            <img
+              src="/trabajo1/images/codo a codo.png"
+              class="img-fluid w-100 p-4"
+              alt="codoa a codo"
+            />
+          </div>
+          <div class="col-md-7">
+            <div
+              class="card-body card-body d-flex flex-column align-items-center justify-content-center h-100 w-75 mx-auto my-auto"
+            >
+              <h1 class="card-title my-3 border-bottom border-danger mb-4 mt-0">
+                Codo a Codo 4.0
+              </h1>
+              <p class="card-text fs-4">Fullstack con Js / Node.js.</p>
+              <p class="card-text fs-4">Actualmente cursando React.Js.</p>
+              <p class="card-text fs-4">
+                Cerrificación A2+ en Ingles por Pearson.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card m-3 bg-body-tertiary">
+        <div class="row g-0">
+          <div class="col-md-5 bg-dark d-flex">
+            <img
+              src="/trabajo1/images/platzi.webp"
+              class="img-fluid w-100 p-4"
+              alt="codoa a codo"
+            />
+          </div>
+          <div class="col-md-7">
+            <div
+              class="card-body card-body d-flex flex-column align-items-center justify-content-center h-100 w-75 mx-auto my-auto py-5"
+            >
+              <h1 class="card-title my-3 border-bottom border-danger mb-4 mt-0">
+                Platzi
+              </h1>
+              <p class="card-text fs-4">
+                Escuela de Fundamentos de Programación y Desarrollo Web
+                terminada.
+              </p>
+              <p class="card-text fs-4">
+                Certificaciones en habilidades blandas como Gestión de tiempo,
+                escucha activa y comunicación efectiva.
+              </p>
+              <p class="card-text fs-4">
+                Actualmente perfeccionando el uso de JavaScript.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div
+        class="card justify-items-center border border-0 w-100 m-0 rounded-0 bg-body-secondary bg-gradient"
+      ></div> -->
+      <div
+        class="card-body bg-body-secondary text-tertiary w-100 justify-items-center mx-0 py-4"
+        id="contacto"
+      >
+        <h3 class="card-title">Contacto</h3>
+        <a
+          href="https://www.linkedin.com/in/jonathan-galimberti-developer/"
+          class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover"
+          >Linkedin</a
+        >
+        <a
+          href="https://github.com/jonathangalimberti"
+          class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover px-5"
+          >GitHub</a
+        >
+        <a
+          href="mailto:jonathangalimberti@hotmail.com"
+          class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover"
+          >Email</a
+        >
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
