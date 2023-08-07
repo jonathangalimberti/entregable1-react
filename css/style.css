@@ -1,0 +1,9 @@
+body{
+    background-image: url("") ;
+    background-repeat: none;
+    background-size: cover;
+}
+
+a img {
+    width: 50px;
+}
